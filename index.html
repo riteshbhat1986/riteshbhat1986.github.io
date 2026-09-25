@@ -1,180 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Ritesh Ramakrishna Bhat | Profile</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-  body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-    color: #333;
-  }
-
-  .site-header {
-    background-color: #003366;
-    padding: 20px;
-    text-align: center;
-    color: #ffffff;
-  }
-
-  .header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-
-  .profile-info {
-    max-width: 600px;
-  }
-
-  .profile-info h1 {
-    margin: 0;
-    font-size: 28px;
-    color: #ffffff;
-  }
-
-  .designation {
-    font-weight: bold;
-    margin-top: 8px;
-    color: #ffffff;
-  }
-
-  .profile-info p {
-    margin: 6px 0;
-    color: #ffffff;
-  }
-
-  .profile-info a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 5px;
-  }
-
-  .profile-info a:hover {
-    color: #ffcc00;
-    text-decoration: underline;
-  }
-
-  .main-content {
-    padding: 20px;
-    max-width: 960px;
-    margin: auto;
-  }
-
-  h2 {
-    color: #003366;
-  }
-
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #e0ecf8;
-    color: #003366;
-  }
-</style>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Dr. Ritesh Ramakrishna Bhat</title>
+<meta name="description" content="Professor and Deputy Dean, School of Advanced Manufacturing, Sricity International University. Editor-in-Chief, Journal of Computers, Mechanical and Management.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Dr. Ritesh Ramakrishna Bhat">
+<meta property="og:description" content="Professor and Deputy Dean, School of Advanced Manufacturing, Sricity International University. Editor-in-Chief, Journal of Computers, Mechanical and Management.">
+<meta property="og:url" content="https://riteshbhat1986.github.io/">
+<meta property="og:image" content="https://riteshbhat1986.github.io/profile.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://riteshbhat1986.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet">
 </head>
 <body>
+<style>
+:root{
+  --band:#111111; --band-ink:#F2EEE4; --band-muted:#B9B2A2;
+  --gold:#8A6D1F; --gold-hi:#C2A03C;
+  --paper:#FAF9F6; --card:#FFFFFF; --ink:#1C1A16; --muted:#665F52; --rule:#E4DED0;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --paper:#141312; --card:#1B1A18; --ink:#ECE7DC; --muted:#A79F8E; --rule:#2E2B26; --gold:#C9A646; --gold-hi:#D8B85A; --band:#0B0B0A;}}
+:root[data-theme="dark"]{color-scheme:dark; --paper:#141312; --card:#1B1A18; --ink:#ECE7DC; --muted:#A79F8E; --rule:#2E2B26; --gold:#C9A646; --gold-hi:#D8B85A; --band:#0B0B0A;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.6}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--gold-hi);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:24px}
+header.band{background:var(--band);color:var(--band-ink);border-bottom:4px solid var(--gold-hi)}
+.hero{display:grid;grid-template-columns:200px 1fr;gap:44px;align-items:center;padding-block:56px 48px}
+.hero img{width:200px;aspect-ratio:413/531;object-fit:cover;border:1px solid var(--gold-hi);display:block;max-width:100%}
+.eyebrow{font-family:var(--sans);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-hi);font-weight:600;margin:0 0 10px}
+h1{font-family:var(--sans);font-weight:600;font-size:clamp(32px,5vw,48px);line-height:1.08;margin:0 0 14px;letter-spacing:-.01em;text-wrap:balance}
+.role{font-size:20px;margin:0;color:var(--band-ink)}
+.role span{display:block;color:var(--band-muted);font-size:17px}
+.creds{font-family:var(--sans);font-size:14px;color:var(--gold-hi);margin:18px 0 26px;display:flex;flex-wrap:wrap;gap:6px 18px;padding-top:16px;border-top:1px solid #3a3528}
+.actions{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center;font-family:var(--sans);font-size:14.5px}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--gold-hi);color:#111;text-decoration:none;font-weight:600;padding:11px 20px;border-radius:2px}
+.btn:hover{background:#D9BA58}
+.btn svg{width:18px;height:18px}
+.ids a{color:var(--band-muted);text-decoration:none;border-bottom:1px solid #4a4435;padding-bottom:1px}
+.ids a:hover{color:var(--band-ink);border-color:var(--gold-hi)}
+.ids{display:flex;flex-wrap:wrap;gap:8px 18px}
+nav.jump{border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+nav.jump .wrap{display:flex;gap:26px;overflow-x:auto;font-family:var(--sans);font-size:14px;padding-block:14px}
+nav.jump a{text-decoration:none;color:var(--muted);white-space:nowrap}
+nav.jump a:hover{color:var(--gold)}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--rule);background:var(--card);margin-block:44px 8px}
+.stat{padding:20px 16px;text-align:center;border-left:1px solid var(--rule)}
+.stat:first-child{border-left:0}
+.stat b{display:block;font-family:var(--sans);font-size:32px;font-weight:600;color:var(--gold);font-variant-numeric:tabular-nums;line-height:1.1}
+.stat small{font-family:var(--sans);font-size:12.5px;color:var(--muted);letter-spacing:.04em}
+section{padding-block:40px;border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:0}
+.sec{display:grid;grid-template-columns:220px 1fr;gap:40px}
+h2{font-family:var(--sans);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:6px 0 0;font-weight:600}
+.lead{font-size:21px;line-height:1.55;margin:0 0 16px;max-width:65ch}
+p{margin:0 0 14px;max-width:65ch}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.item{padding-block:14px;border-top:1px solid var(--rule)}
+.item h3{font-family:var(--sans);font-size:16.5px;font-weight:600;margin:0 0 3px}
+.item p{font-size:16px;color:var(--muted);margin:0}
+.tl{list-style:none;margin:0;padding:0}
+.tl li{display:grid;grid-template-columns:150px 1fr;gap:20px;padding-block:13px;border-top:1px solid var(--rule)}
+.tl .when{font-family:var(--sans);font-size:14px;color:var(--gold);font-variant-numeric:tabular-nums;padding-top:2px}
+.tl h3{font-family:var(--sans);font-size:16.5px;font-weight:600;margin:0}
+.tl p{font-size:16px;color:var(--muted);margin:2px 0 0}
+.sdg{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:18px}
+.sdg div{border:1px solid var(--rule);background:var(--card);padding:14px 12px}
+.sdg b{font-family:var(--sans);font-size:13px;color:var(--gold);letter-spacing:.06em;display:block}
+.sdg span{font-family:var(--sans);font-size:14px;line-height:1.35;display:block;margin-top:4px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px;font-family:var(--sans);font-size:14px}
+.tags span{border:1px solid var(--rule);padding:5px 12px;background:var(--card)}
+.connect{background:var(--band);color:var(--band-ink);margin-top:0}
+.connect .wrap{padding-block:52px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.connect h2{color:var(--gold-hi);margin:0 0 8px}
+.connect p{margin:0;color:var(--band-muted);font-size:17px}
+footer{background:var(--band);color:#8D8676;font-family:var(--sans);font-size:13px;border-top:1px solid #2a2720}
+footer .wrap{padding-block:18px}
+@media (max-width:820px){
+  .hero{grid-template-columns:1fr;gap:26px;padding-block:36px}
+  .hero img{width:150px}
+  .sec{grid-template-columns:1fr;gap:14px}
+  .grid2{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .stat:nth-child(4){border-left:0}
+  .stat:nth-child(n+4){border-top:1px solid var(--rule)}
+  .sdg{grid-template-columns:1fr 1fr}
+  .tl li{grid-template-columns:1fr;gap:2px}
+  body{font-size:17px}
+  .lead{font-size:19px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:60px}
+</style>
 
-  <header class="site-header">
-    <div class="header-container">
-      <img src="profile.jpg" alt="Dr. Ritesh Bhat" class="profile-img" />
-      <div class="profile-info">
-        <h1>Dr. Ritesh Ramakrishna Bhat</h1>
-        <p class="designation">Deputy Dean<br>School of Advanced Manufacturing</p>
-        <p>Sricity Education Foundation, Sri City</p>
-        <p>Email: sam.dydean@thesiu.org</p>
-        <p>
-          <a href="https://scholar.google.com/citations?user=TEoKPXUAAAAJ&hl=en&authuser=2" target="_blank">Google Scholar</a> |
-          <a href="https://www.linkedin.com/in/riteshbhatrb/" target="_blank">LinkedIn</a> |
-          <a href="https://orcid.org/0000-0001-9228-7245" target="_blank">ORCID</a> |
-          <a href="https://www.scopus.com/authid/detail.uri?authorId=57203181140" target="_blank">Scopus</a> |
-          <a href="https://www.webofscience.com/wos/author/record/JZT-1302-2024" target="_blank">Web of Science</a>
-        </p>
+<header class="band">
+  <div class="wrap hero">
+    <img src="profile.jpg" alt="Portrait of Dr. Ritesh Ramakrishna Bhat" width="200" height="257">
+    <div>
+      <p class="eyebrow">Academic Leader &middot; Editor &middot; Institution Builder</p>
+      <h1>Dr. Ritesh Ramakrishna Bhat</h1>
+      <p class="role">Professor and Deputy Dean, School of Advanced Manufacturing<span>Sricity International University, Sri City, Andhra Pradesh, India</span></p>
+      <div class="creds"><span>Ph.D. Industrial Engineering</span><span>C.Eng. (India)</span><span>Senior Member, IEEE</span><span>Certified OBE Trainer</span></div>
+      <div class="actions">
+        <a class="btn" href="https://www.linkedin.com/in/riteshbhatrb/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.6 0-1.85 1.25-1.85 2.55v4.91h-4v-11z"/></svg>
+          Connect on LinkedIn</a>
+        <div class="ids">
+          <a href="https://scholar.google.com/citations?user=TEoKPXUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57203181140" target="_blank" rel="noopener">Scopus</a>
+          <a href="https://orcid.org/0000-0001-9228-7245" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://www.webofscience.com/wos/author/record/JZT-1302-2024" target="_blank" rel="noopener">Web of Science</a>
+        </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="main-content">
-    <section>
-      <h2>Profile Summary</h2>
-      <p>
-        Dr. Ritesh Ramakrishna Bhat currently serves as Deputy Dean, School of Advanced Manufacturing at Sricity Education Foundation, Sri City.
-        With over 15 years of academic and research experience, he has held faculty positions in India, Malaysia, and Dubai.
-        His contributions span curriculum development, international collaborations, student mentoring, and institutional strategy.
-      </p>
-      <p>
-        He is committed to building industry-relevant, work-integrated learning models that enhance graduate employability and real-world readiness.
-      </p>
-    </section>
+<nav class="jump" aria-label="Sections"><div class="wrap">
+  <a href="#about">About</a><a href="#leadership">Built</a><a href="#editorial">Editorial</a><a href="#speaking">Speaking</a><a href="#experience">Experience</a><a href="#credentials">Education</a>
+</div></nav>
 
-    <section>
-      <h2>Academic Qualifications</h2>
-      <ul>
-        <li>Ph.D. in Industrial Engineering, MAHE, Manipal – 2022</li>
-        <li>M.Tech. in Production Management, VTU Belagavi – 2011</li>
-        <li>B.E. in Mechanical Engineering, VTU Belagavi – 2009</li>
-      </ul>
-    </section>
+<main class="wrap">
+  <div class="stats" aria-label="Research metrics">
+    <div class="stat"><b>14+</b><small>years in academia</small></div>
+    <div class="stat"><b>68</b><small>Scopus documents</small></div>
+    <div class="stat"><b>672</b><small>citations</small></div>
+    <div class="stat"><b>15</b><small>Scopus h-index</small></div>
+    <div class="stat"><b>6</b><small>campuses, 3 countries</small></div>
+  </div>
 
-    <section>
-    <h2>Editorial Roles</h2>
-    <ul>
-      <li>Section Editor – Mechanical: <em>Scientific Reports</em> (Nature Portfolio) <small>(Indexed in SCOPUS & WoS)</small></li>
-      <li>Associate Editor: <em>Discover Applied Sciences</em> (Springer Nature) <small>(Indexed in SCOPUS & WoS)</small></li>
-      <li>Editor-in-Chief: <em>Journal of Computers, Mechanical and Management</em> <small>(Google Scholar Indexed)</small></li>
-      <li>Guest Editor: <em>MDPI Engineering Proceedings</em> <small>(Indexed in SCOPUS)</small></li>
-      <li>Lead Editor: <em>Proceedings of Engineering Sciences</em> (University of Kragujevac) <small>(Indexed in SCOPUS)</small></li>
-      <li>Lead Editor: <em>iDEAAS Proceedings in Sustainable Civil Infrastructures</em> (Springer Nature, India) <small>(Indexed in SCOPUS)</small></li>
+  <section id="about"><div class="sec"><h2>About</h2><div>
+    <p class="lead">A school, a Scopus-indexed journal, an international accreditation and a publishing house. I build things in higher education that did not exist before, and I make them work.</p>
+    <p>At Sricity International University I designed and launched the B.Tech. in Smart Manufacturing, a work-integrated dual program in which students spend over 30 months in industry. The first cohort began classes in September 2026.</p>
+    <p>Over fourteen years I have taught and led programs at six campuses in India, the UAE and Malaysia, with a steady focus on curriculum reform, outcome-based education and accreditation. I also founded the Scopus-indexed <em>Journal of Computers, Mechanical and Management</em> and serve as its Editor-in-Chief.</p>
+  </div></div></section>
+
+  <section id="leadership"><div class="sec"><h2>What I Have Built</h2><div class="grid2">
+    <div class="item"><h3>Built a school before its first student arrived</h3><p>Designed the School of Advanced Manufacturing at SIU from a blank page: a 160-credit dual program with over 30 months in industry, two industry tracks, labs and faculty. The first cohort has been in class since September 2026.</p></div>
+    <div class="item"><h3>Took a journal from launch to Scopus</h3><p>Founded the <em>Journal of Computers, Mechanical and Management</em> in 2022 and, as Editor-in-Chief, led it into Scopus.</p></div>
+    <div class="item"><h3>Won full-term accreditation abroad</h3><p>Secured full-term undergraduate accreditation from EAC Malaysia, a Washington Accord signatory, for Manipal International University. Then ran accreditation for B.Tech. Industrial Engineering at MIT Manipal for six years.</p></div>
+    <div class="item"><h3>Teaches the teachers</h3><p>Globally certified OBE trainer. Engineering colleges bring me in to run NBA and OBE workshops for their faculty, and one has placed me on its department advisory board.</p></div>
+    <div class="item"><h3>Turned editorial skill into a business</h3><p>Founded SHORAM Editorial Services in 2026, a registered academic publishing house and Crossref member that publishes conference proceedings for Karnataka institutions.</p></div>
+    <div class="item"><h3>Trusted with strategy</h3><p>Deputy Project Management Officer for strategic development, and Head of Mechatronics, at Rajalakshmi Engineering College, Chennai.</p></div>
+  </div></div></section>
+
+  <section id="editorial"><div class="sec"><h2>Editorial</h2><div>
+    <ul class="tl">
+      <li><span class="when">Editor-in-Chief</span><div><h3>Journal of Computers, Mechanical and Management</h3><p>AAN Publishers. Founded 2022, now indexed in Scopus.</p></div></li>
+      <li><span class="when">Section Editor</span><div><h3>Scientific Reports, Nature Portfolio</h3><p>Mechanical engineering section.</p></div></li>
+      <li><span class="when">Associate Editor</span><div><h3>Discover Applied Sciences, Springer Nature</h3><p>Handling editor for applied engineering submissions.</p></div></li>
+      <li><span class="when">Editor-in-Chief</span><div><h3>CPSM Conference Proceedings Series</h3><p>SHORAM Editorial Services.</p></div></li>
+      <li><span class="when">Lead and Guest Editor</span><div><h3>Springer Nature, MDPI and University of Kragujevac proceedings</h3><p>iDEAAS Proceedings in Sustainable Civil Infrastructures; Engineering Proceedings; Proceedings of Engineering Sciences.</p></div></li>
     </ul>
-    </section>
-    
-    <section>
-      <h2>Research Expertise</h2>
-      <p><strong>Area of Interest:</strong> Industrial and Manufacturing Engineering</p>
-      <p><strong>Subjects of Interest:</strong> Statistical Data Analytics, Manufacturing Engineering, Automation in Production, Composite Materials, Machining, Design of Experiments, Optimization</p>
-    </section>
+  </div></div></section>
 
-    <section>
-      <h2>Certifications & Memberships</h2>
-      <ul>
-        <li>Chartered Engineer (C.Eng. India)</li>
-        <li>Certified OBE Trainer</li>
-        <li>Associate Member – Institute of Engineers India</li>
-        <li>Professional Member – IEEE</li>
-      </ul>
-    </section>
+  <section id="speaking"><div class="sec"><h2>Speaking</h2><div>
+    <p>Invited talks and faculty programs on outcome-based education, NBA and EAC accreditation, design of experiments, statistical data analysis, and the ethical use of generative AI in research. I also speak on how engineering education serves the Sustainable Development Goals.</p>
+    <div class="sdg" aria-label="Sustainable Development Goals I speak on">
+      <div><b>SDG 4</b><span>Quality Education</span></div>
+      <div><b>SDG 8</b><span>Decent Work and Economic Growth</span></div>
+      <div><b>SDG 9</b><span>Industry, Innovation and Infrastructure</span></div>
+      <div><b>SDG 12</b><span>Responsible Consumption and Production</span></div>
+      <div><b>SDG 17</b><span>Partnerships for the Goals</span></div>
+    </div>
+  </div></div></section>
 
-    <section>
-      <h2>Contact</h2>
-      <p><strong>Contact Number:</strong> +91 81479 86723</p>
-      <p><strong>Official Email:</strong> sam.dydean@thesiu.org</p>
-      <p><strong>Personal Email:</strong> h.riteshbhat@hotmail.com</p>
-      <p><strong>Office:</strong> School of Advanced Manufacturing, Sricity Education Foundation, Sri City, Tirupati District, Andhra Pradesh – 517588, India</p>
-    </section>
+  <section id="experience"><div class="sec"><h2>Experience</h2><div>
+    <ul class="tl">
+      <li><span class="when">2025 to present</span><div><h3>Professor and Deputy Dean</h3><p>School of Advanced Manufacturing, Sricity International University</p></div></li>
+      <li><span class="when">2023 to 2025</span><div><h3>Professor and Head, Mechatronics Engineering</h3><p>Rajalakshmi Engineering College, Chennai</p></div></li>
+      <li><span class="when">2016 to 2018</span><div><h3>Assistant Professor and Program Coordinator</h3><p>Manipal International University, Nilai, Malaysia (deputed)</p></div></li>
+      <li><span class="when">2011 to 2023</span><div><h3>Assistant Professor (Senior Scale)</h3><p>Manipal Institute of Technology, MAHE, with deputations to MAHE Dubai and MAHE Bengaluru</p></div></li>
+      <li><span class="when">2005 to 2011</span><div><h3>Early career</h3><p>Teaching Assistant at colleges in Belagavi while studying for the B.E.; Product Owner and HR Management Trainee at Pragati Automation Pvt. Ltd., Belagavi, during the M.Tech.</p></div></li>
+    </ul>
+  </div></div></section>
 
-  </main>
+  <section id="credentials"><div class="sec"><h2>Education</h2><div>
+    <ul class="tl">
+      <li><span class="when">2022</span><div><h3>Ph.D., Industrial Engineering</h3><p>Manipal Academy of Higher Education, Manipal</p></div></li>
+      <li><span class="when">2011</span><div><h3>M.Tech., Production Management</h3><p>KLS Gogte Institute of Technology, Belagavi (VTU)</p></div></li>
+      <li><span class="when">2009</span><div><h3>B.E., Mechanical Engineering</h3><p>KLS Gogte Institute of Technology, Belagavi (VTU)</p></div></li>
+    </ul>
+    <p style="margin-top:22px;font-family:var(--sans);font-size:14px;color:var(--muted)">Research areas</p>
+    <div class="tags"><span>Advanced manufacturing</span><span>Industrial engineering</span><span>Design of experiments</span><span>Composite machining</span><span>Statistical data analytics</span><span>Work-integrated learning</span><span>Outcome-based education</span></div>
+  </div></div></section>
+</main>
 
-  <footer>
-    <p>&copy; 2025 Dr. Ritesh Ramakrishna Bhat | Sricity Education Foundation</p>
-  </footer>
+<div class="connect"><div class="wrap">
+  <div><h2>Get in touch</h2><p>For talks, collaborations and editorial matters, please connect with me on LinkedIn.</p></div>
+  <a class="btn" href="https://www.linkedin.com/in/riteshbhatrb/" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.6 0-1.85 1.25-1.85 2.55v4.91h-4v-11z"/></svg>
+    Connect on LinkedIn</a>
+</div></div>
+<footer><div class="wrap">&copy; 2026 Dr. Ritesh Ramakrishna Bhat</div></footer>
 
 </body>
 </html>
